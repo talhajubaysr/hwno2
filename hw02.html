@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>econd HW</title>
+    <style>
+        /*my form style*/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       .my-form{
+         font-family: Georgia, 'Times New Roman', Times, serif; 
+       }
+       img{
+           width: 100px;
+           height: 100px;
+           margin: 10px 635px;
+          
+       }
+       form{
+           text-align:center ;
+           justify-content: space-between;
+           padding: 20PX; 
+          
+       }
+       input{
+           margin:  5PX 0PX;
+           padding: 5px;
+           width: 400px;
+           border-radius: 5px ;
+           background-color: rgba(7, 7, 7, 0.178);
+      
+           
+       }
+       label{
+        color: #e9490adc;
+       }
+       .button{
+           
+           width: 80px;
+           height: 30px;
+           color: #e9490adc;
+       }
+       .button:hover{
+        color: rgb(252, 248, 248);
+        background-color:   #e9490adc;}
+        .linkup{
+            margin: 5px 10px;
+            list-style: none;
+            text-decoration: none;
+           
+        }
+        h1{
+            margin: 10px 600px;
+            width: 200px;
+        }
+        .linkup:hover{
+            text-decoration: underline;
+            color: rgb(18, 21, 31);
+        }
+        @media screen and (max-width:768px ) {
+            img{
+           width: 100px;
+           height: 100px;
+           margin: 10px 200px  ;}
+           h1{
+            margin: 10px 170px;
+        }
+           
+        }
+        /*my form style*/
+
+    </style>
+</head>
+<body>
+    <!--my form-->
+    <div>
+        <div>
+            <h1>Admin login</h1>
+        </div>
+    <div class="image">
+        <img src="../hw/img/1819.png" alt="">
+    </div>
+    <div class="my-form">
+        <form>
+          
+            <label for="first-nm">First name</label><br>
+            <input type="text"  name="Enter your first name"><br>
+            <label for="first-nm">Last name</label><br>
+            <input type="text"  name="Enter your last name "><br>
+            <label for="first-nm">Email address</label><br>
+            <input type="text"  placeholder="Enter your email address"><br>
+            <label for="first-nm">Password</label><br>
+            <input type="password" name="Enter your name"><br>
+            <a href="login.html" class="linkup">log in </a>
+            <a href="forgot.html" class="linkup">Forgot password</a><br>
+            <label for="first-nm">Are You sure </label><br>
+            <input class="check-box" type="checkbox" name="first name"><br>
+            <input class="button" type="submit" value="Submit"><br>
+           </form>
+    </div>
+</div>
+     <!--my form-->
+</body>
+</html>
